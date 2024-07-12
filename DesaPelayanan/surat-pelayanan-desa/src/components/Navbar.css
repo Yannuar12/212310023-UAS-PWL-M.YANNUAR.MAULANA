@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #333;
+    padding: 0rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .navbar-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+  
+  .navbar-item:hover {
+    color: #ddd;
+  }
+  

@@ -1,0 +1,88 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container class for layout purposes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Basic styling for header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Styling for navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #575757;
+}
+
+/* Styling for main content */
+main {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic styling for buttons */
+button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #575757;
+}
+
+/* Basic styling for footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
